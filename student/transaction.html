@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Online book selling/buying</title>
+		<link rel="stylesheet" type="text/css" href="transaction.css">
+		<meta charset="utf-8">
+	</head>
+	
+	<body style="background-image:url('images/lib2.jpg');">
+		
+			<form class="form" method="post" action="transaction.php">
+		 
+			<table style="width:100%;">
+				<tr>
+					<h1 class="head">PAYMENT</h1>
+				</tr>
+				<tr>
+					<td>CARD NUMBER</td>
+					<td><input type="text" name="cardno"  required placeholder="XXXXXXXXXXXXXXXX"></td>
+				</tr>
+				<tr>
+					<td>CVV</td>
+					<td><input type="text" name="cvv" required placeholder="777"></td>
+				</tr>
+				<tr>
+					<td>PINCODE </td>
+					<td><input type="text" name="pincode" required placeholder="XXXX"></td>
+				</tr>
+				<tr>
+					<td>AMOUNT</td>
+					<td><input type="text" name="amount" required placeholder="35"></td>
+				</tr>
+				<tr>
+					<td>BANK</td>
+					<td><input type="text" name="bank" required placeholder="S.B.I"></td>
+				</tr>
+				
+			</table>
+			
+			<input type="submit" name="submit" style="width:60px;height:30px;font-size:15px;margin-right:20px;margin-top:20px;">
+		</form>
+	</body>
+</html>

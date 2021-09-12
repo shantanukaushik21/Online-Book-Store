@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Online Book Store</title>
+		<link rel="stylesheet" type="text/css" href="sell.css">
+		<meta charset="utf-8">
+	</head>
+	
+	<body style="background-image:url('images/lib2.jpg');">
+		 
+			<form class="form" method="post" action="sell.php">
+		 
+				<table style="width:100%;">
+					<tr>
+						<h1 class="head">ENTER THE DETAILS ABOUT THE BOOK YOU WANT TO SELL</h1>
+					</tr>
+					<tr>
+						<td>BARCODE</td>
+						<td><input type="text" name="barcode" required placeholder="XXXXXXXXXXXXXXX"></td>
+					</tr>
+					<tr>
+						<td>BOOK NAME</td>
+						<td><input type="text" name="bname" required placeholder="IWP"></td>
+					</tr>
+					<tr>
+						<td>BOOK AUTHOR</td>
+						<td><input type="text" name="bauthor" required placeholder="xxx"></td>
+					</tr>
+					<tr>
+						<td>PRICE</td>
+						<td><input type="text" name="price" required placeholder="35"></td>
+					</tr>
+					
+				</table>
+			
+			<input type="submit" name="submit" style="width:60px;height:30px;font-size:15px;margin-right:20px;margin-top:20px;">
+		</form>
+	</body>
+</html>

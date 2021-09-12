@@ -1,0 +1,95 @@
+/*prallax starts*/
+*{
+	margin:0px;
+}
+html,body{
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+body,h1,h2,h3,h4,h5,h6 
+{
+	font-family: "Lato", sans-serif;
+}
+.sec
+{
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+.subsec{
+	height:50%;
+	background-image:url('images/tablet.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+	
+}
+.one{
+	background-image:url('images/paper.jpg');
+}
+.two{
+	background-image:url('images/book.jpg');
+}
+/*parallax exit*/
+
+/*student login part*/
+.school
+{	
+	
+	color: #CCFFFF;
+	text-align:center;
+	padding-top: 250px;
+	font-size:80px;
+}
+.stud
+{
+	text-align:center;
+	color:white;
+	font-size:50px
+	
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.butt{
+	margin-left: 550px;
+	margin-top: 50px;
+	
+}
+
+.butt
+{		
+		padding: 20px 20px 20px 20px;
+		font-size:40px;
+		width:400px;
+		-webkit-transition:all .5s;
+		background-color:green;
+		line-height:50px;
+		text-align:center;
+		font-weight:bold;
+		color:white;
+		border-radius:25px;
+		box-shadow: 1px 1px 5px rgba(0,0,0,.5),0px 0px 0px 1px rgba(0,0,0,.3);
+		cursor:pointer;
+}
+.butt:hover{
+	background:#003300;
+	color:white;
+}
+
+/*student login part end*/
+
+/*reference*/
+img
+{	float:left;
+	margin-top:50px;
+	margin-right:80px;
+	border-radius:25px;
+	cursor=pointer;
+}
+/*reference*/
